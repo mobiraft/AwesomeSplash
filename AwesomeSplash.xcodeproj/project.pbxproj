@@ -13,6 +13,8 @@
 		8DCCF38C24FD336600183042 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DCCF38B24FD336600183042 /* Preview Assets.xcassets */; };
 		8DCCF39724FD336600183042 /* AwesomeSplashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCCF39624FD336600183042 /* AwesomeSplashTests.swift */; };
 		8DCCF3A224FD336600183042 /* AwesomeSplashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCCF3A124FD336600183042 /* AwesomeSplashUITests.swift */; };
+		8DCCF3B024FD33A800183042 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCCF3AF24FD33A800183042 /* SplashView.swift */; };
+		8DCCF3B224FD33DA00183042 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCCF3B124FD33DA00183042 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		8DCCF39D24FD336600183042 /* AwesomeSplashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwesomeSplashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DCCF3A124FD336600183042 /* AwesomeSplashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwesomeSplashUITests.swift; sourceTree = "<group>"; };
 		8DCCF3A324FD336600183042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DCCF3AF24FD33A800183042 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		8DCCF3B124FD33DA00183042 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				8DCCF38824FD336600183042 /* Assets.xcassets */,
 				8DCCF38D24FD336600183042 /* Info.plist */,
 				8DCCF38A24FD336600183042 /* Preview Content */,
+				8DCCF3AF24FD33A800183042 /* SplashView.swift */,
+				8DCCF3B124FD33DA00183042 /* HomeView.swift */,
 			);
 			path = AwesomeSplash;
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DCCF38724FD336200183042 /* ContentView.swift in Sources */,
+				8DCCF3B224FD33DA00183042 /* HomeView.swift in Sources */,
 				8DCCF38524FD336200183042 /* AwesomeSplashApp.swift in Sources */,
+				8DCCF3B024FD33A800183042 /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
